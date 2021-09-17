@@ -7,6 +7,7 @@
     width: 100%;
     position: relative;
     top: 70px;
+    scroll-behavior: smooth; //To ensure the scroll back is not too fast
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //To hide the scrollbar
     &::-webkit-scrollbar{
