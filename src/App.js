@@ -4,6 +4,7 @@ import Topbar from "./components/Topbar/Topbar";
 import Intro from "./components/Intro/Intro";
 import Project from "./components/Projects/Project";
 import Work from "./components/Work/Work";
+import Menu from "./components/Menu/Menu"
 import "./App.scss";
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen= {menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen= {menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
         <Work />
