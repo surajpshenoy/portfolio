@@ -28,15 +28,14 @@
     width: 60%;
 
     li {
-        margin-bottom: 15px;
+      margin-bottom: 15px;
       a {
         color: inherit;
         font-size: inherit;
         text-decoration: none;
-        
       }
-      &:hover{
-          font-weight: 400;
+      &:hover {
+        font-weight: 400;
       }
     }
   }
