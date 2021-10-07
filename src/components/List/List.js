@@ -1,7 +1,11 @@
-import React from "react"
+import "./List.scss";
 
-
-
-const list = () =>{
-    return ();
+export default function List({ title, active, setSelected, id}) {
+  return (
+    <div>
+      <li className={active ? "list active" : "list"} onClick={() => setSelected(id)}>{title}
+      
+      </li>
+    </div>
+  );
 }
